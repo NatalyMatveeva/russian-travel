@@ -1,0 +1,26 @@
+.header {
+  padding-top: 28px;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: "Inter";
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+  }
+}

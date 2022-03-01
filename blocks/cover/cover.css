@@ -2,11 +2,27 @@
   width: calc(100% - 48px * 2);
   margin: 0 auto;
   text-align: center;
-  padding-top: 92px;
+  padding-top: 144px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
+    padding-top: 92px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover {
+    padding-top: 66px;
+  }
+}
+
+.cover:hover {
+  cursor: pointer;
 }

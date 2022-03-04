@@ -1,4 +1,18 @@
 .header__links {
-  display: flex;
-  box-sizing: border-box;
+  position: absolute;
+  right: 48px;
+  top: 46px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__links {
+    right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__links {
+    right: 16px;
+    top: 30px;
+  }
 }

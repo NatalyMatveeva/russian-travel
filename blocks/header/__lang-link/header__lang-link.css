@@ -4,6 +4,11 @@
   font-size: 24px;
   font-weight: normal;
   text-decoration: none;
+  margin-right: 18px;
+  }
+
+.header__lang-link:last-child {
+  margin-right: 0;
 }
 
 
